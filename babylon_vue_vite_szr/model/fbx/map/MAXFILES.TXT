@@ -1,0 +1,27 @@
+﻿F:\主持视频\t$m$p$$$\2.max
+F:\主持视频\t$m$p$$$\MAXFILES.TXT
+F:\主持视频\3-mishu001_FBX\mishu001_model\mishu01_cloth_Diffuse.png
+F:\主持视频\3-mishu001_FBX\mishu001_model\mishu01_cloth_Metallic.png
+F:\主持视频\3-mishu001_FBX\mishu001_model\mishu01_cloth_Roughness.png
+F:\主持视频\3-mishu001_FBX\mishu001_model\mishu01_cloth_Normal.png
+F:\主持视频\3-mishu001_FBX\mishu001_model\mishu01_hair_diffuse.png
+F:\主持视频\3-mishu001_FBX\mishu001_model\mishu01_hair_alpha.tga
+F:\主持视频\1-qipaonv_model\qipaonv_cloth_Diffuse.png
+F:\主持视频\1-qipaonv_model\qipaonv_cloth_Roughness.png
+F:\主持视频\1-qipaonv_model\qipaonv_cloth_Normal.png
+F:\主持视频\1-qipaonv_model\qipaonv_FBX.fbm\qipaonv_tou_diffuse.png
+F:\主持视频\1-qipaonv_model\qipaonv_tou_specular.png
+F:\主持视频\1-qipaonv_model\qipaonv_tou_NM.tif
+F:\主持视频\1-qipaonv_model\qipaonv_body_diffuse.png
+F:\主持视频\1-qipaonv_model\qipaonv_body_specular.png
+F:\主持视频\1-qipaonv_model\qipaonv_body_NM.tif
+F:\主持视频\1-qipaonv_model\hair01.tga
+F:\主持视频\1-qipaonv_model\hair_alpha001.tga
+F:\主持视频\4-zhiyezhuang 2020 07-06\LWD4_Shoes.jpg
+F:\主持视频\4-zhiyezhuang 2020 07-06\Sue Hair Color 07.tif
+F:\主持视频\4-zhiyezhuang 2020 07-06\Sue Hair Cap Color 07.tif
+F:\主持视频\2-bailing03_FBX\bailing03_model\bailing03_cloth_Diffuse.png
+F:\主持视频\2-bailing03_FBX\bailing03_model\bailing03_cloth_Roughness.png
+F:\主持视频\2-bailing03_FBX\bailing03_model\bailing03_cloth_Normal.png
+F:\主持视频\2-bailing03_FBX\bailing03_model\hair01.tga
+F:\主持视频\2-bailing03_FBX\bailing03_model\hair_alpha001.tga

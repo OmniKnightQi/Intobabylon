@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Vue</title>
+  </head>
+  <body>
+    <div id="rendercanvasContainer">
+      <canvas id="renderCanvas" ref="renderCanvas"></canvas>
+    </div>
+    <script src="https://cdn.babylonjs.com/babylon.js"></script>
+    <script>
+     window.addEventListener('DOMContentLoaded', function() {
+            var canvas = document.getElementById('renderCanvas');
+            var engine = new BABYLON.Engine(canvas, true);
+            var scene = new BABYLON.Scene(engine);
+            scene.debugLayer.show();
+            var camera = new BABYLON.ArcRotateCamera('camera', Math.PI/3.5, Math.PI/3.5, 4, BABYLON.Vector3.Zero(), scene);
+            camera.attachControl(canvas, true);
+
+            // 添加灯光
+            var light = new BABYLON.HemisphericLight('light', new BABYLON.Vector3(0, 1, 0), scene);
+
+            // 创建正方体
+            var box = BABYLON.MeshBuilder.CreateBox('box', {size: 1}, scene);
+            box.material = new BABYLON.StandardMaterial('boxMaterial', scene);
+            box.material.diffuseColor = new BABYLON.Color3(0.5, 0.5, 1); // 淡蓝色
+
+            BABYLON.SceneLoader.ImportMesh(
+          '', // 要导入的特定网格的名称，空字符串表示导入所有网格
+          '/model/fbx', // 模型文件的路径
+          '4-806.FBX', // 模型文件的名称
+          scene, // 要将模型导入到的目标场景
+          function (meshes) { // 回调函数，处理加载完成后的操作
+            // meshs是模型中的所有网格，是模型的基本组成后续要实现各种交互需要了解。
+            // 一会的鼠标监听事件就写在这里
+              console.log('模型已加载', meshes);
+          } );
+
+            engine.runRenderLoop(function() {
+                scene.render();
+            });
+        });
+        window.addEventListener('resize', function () {
+          engine.resize();
+        });
+    </script>
+  </body>
+</html>
